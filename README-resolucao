@@ -1,0 +1,77 @@
+Intalar com pip intall {módulo}
+
+Modulos para instalar
+    pytest
+    selenium
+    webdriver-manager
+
+Para rodar cada teste utilize
+    pytest -v '.\TC018_test_breakcontactForm.py'
+
+Módulos e explicação
+
+Relatório de testes.xlsx
+    Arquivo mestre, expolica sobre funcionalidades, bugs e testes automatizados.
+
+
+Relatório de bugs.xlsx
+    Relatório de bugs com os testes realizados, incluindo os resultados e observações.
+
+
+
+-TC001_test_header_navigation
+    Teste do navegador do cabeçalho da página inicial, verificando se os links estão funcionando corretamente.
+
+-TC002_test_header_test_form
+    Teste do formulário de contato no cabeçalho da página inicial, verificando se o envio do formulário funciona corretamente.
+
+-TC003_test_plansTest_form
+    Teste do formulário de planos na página inicial, verificando se o envio do formulário funciona corretamente.
+
+-TC004_test_footer_socialMediaLinks
+    Teste dos links de redes sociais no rodapé da página inicial, verificando se os links estão funcionando corretamente.
+
+-TC005_test_footer_textLinks
+    Teste dos links de texto no rodapé da página inicial, verificando se os links estão funcionando corretamente.
+
+-TC006_test_footer_appDownloadLinks
+    Teste dos links de download do aplicativo no rodapé da página inicial, verificando se os links estão funcionando corretamente.
+
+-TC007_test_contactForm
+    Teste do formulário de contato na página de contato, verificando se o envio do formulário funciona corretamente.
+
+-TC008_test_resumeForm
+    Teste do formulário de currículo na página de contato, verificando se o envio do formulário funciona corretamente.
+
+-TC009_test_redirectPage
+    Teste de redirecionamento da página inicial para a página de contato, verificando se o redirecionamento funciona corretamente.
+
+-TC010_test_goToTheTop
+    Teste do botão "Voltar ao topo" na página inicial, verificando se o botão funciona corretamente.
+
+-TC011_test_emailTo
+    Teste do link de email no rodapé da página inicial, verificando se o link funciona corretamente.
+
+-TC012_test_ImprensaLinks
+    Teste dos links de imprensa no rodapé da página inicial, verificando se os links estão funcionando corretamente.
+
+-TC013_test_vagasLinkAboutPage
+    Teste do link de vagas na página Sobre, verificando se o link funciona corretamente.
+
+-TC014_test_vagasAbertasLinkScroller
+    Teste do link de vagas abertas no scroller da página inicial, verificando se o link funciona corretamente.
+
+-TC015_test_vagaRedirecter
+    Teste de redirecionamento da página inicial para a página de vagas, verificando se o redirecionamento funciona corretamente.
+
+-TC016_test_header_test_breakForm
+    Teste do formulário de contato no cabeçalho da página inicial, verificando se o envio do formulário funciona corretamente com dados inválidos.
+
+-TC017_test_plansTest_breakForm
+    Teste do formulário de planos na página inicial, verificando se o envio do formulário funciona corretamente com dados inválidos.
+
+-TC018_test_breakcontactForm
+    Teste do formulário de contato na página de contato, verificando se o envio do formulário funciona corretamente com dados inválidos.
+
+-TC019_test_breakResumeForm
+    Teste do formulário de currículo na página de contato, verificando se o envio do formulário funciona corretamente com dados inválidos.
