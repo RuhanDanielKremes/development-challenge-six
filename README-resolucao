@@ -1,4 +1,6 @@
-Intalar com pip intall {módulo}
+Importar arquivo MedCloud.side no selenium IDE para rodar os testes automatizados
+
+Intalar com pip intall {módulo} para utilizar com python
 
 Modulos para instalar
     pytest
@@ -17,6 +19,7 @@ Relatório de testes.xlsx
 Relatório de bugs.xlsx
     Relatório de bugs com os testes realizados, incluindo os resultados e observações.
 
+De preferencia para utilizar os testes automatizados pelo python, por[em foi desenvolvido os testes automatizados pelo selenium, MedCloud.side
 
 
 -TC001_test_header_navigation
